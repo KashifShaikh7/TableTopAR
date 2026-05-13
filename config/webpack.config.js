@@ -76,7 +76,7 @@ const config = {
   output: {
     filename: 'bundle.js',
     path: distPath,
-    publicPath: '/',
+    publicPath: '/TableTopAR/',
   },
   plugins: [
     new HtmlWebpackPlugin({
