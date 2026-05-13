@@ -30,7 +30,7 @@ export const tapPlaceComponent = {
       // tiny start scale for pop animation
       newElement.setAttribute('scale', '0.0001 0.0001 0.0001')
 
-      newElement.setAttribute('gltf-model', '#buildingModel')
+      newElement.setAttribute('gltf-model', '#cactusModel')
 
       this.el.sceneEl.appendChild(newElement)
 
